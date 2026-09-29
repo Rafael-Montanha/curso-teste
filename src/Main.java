@@ -7,8 +7,10 @@ public class Main {
         System.out.println("Digite sua idade: ");
         int idade = sc.nextInt();
 
-        if(idade < 18) {
+        if(idade < 12) {
             System.out.println("Criança");
+        } else if (idade > 12 && idade < 18){
+            System.out.println("Adolescente");
         } else {
             System.out.println("Adulto");
         }
